@@ -10,14 +10,14 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 40px;
   color: #120b21;
   margin-bottom: 30px;
 }
 
 .photo-profil {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 100px;
   border: 3px solid #066204;
@@ -27,8 +27,8 @@ p {
 /* Bouton */
 .btn {
   display: inline-block;
-  margin: 20px auto;
-  padding: 10px 20px;
+  margin: 40px auto;
+  padding: 20px 40px;
   background-color: #056a0e;
   color: white;
   text-decoration: none;
@@ -44,16 +44,16 @@ p {
 /* Formulaire de contact */
 .contact-form {
   max-width: 400px;
-  margin: 30px auto;
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   text-align: left;
 }
 
 .contact-form input,
 .contact-form textarea {
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
@@ -62,7 +62,7 @@ p {
 }
 
 .contact-form button {
-  padding: 10px;
+  padding: 30px;
   background-color: #0aa2c5ed;
   color: white;
   font-weight: bold;
